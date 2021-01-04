@@ -1,6 +1,7 @@
 import styles from "./HeroSection.module.css"
 import blob1 from "../public/Rectangle 20.svg";
 import blob2 from "../public/Rectangle 21.svg";
+import dashes from "../public/Group 1095.svg";
 import Button from "../components/Button"
 
 export default function HeroSection(props) {
@@ -20,6 +21,7 @@ export default function HeroSection(props) {
 
             <img className={styles.blob1} src={blob1}/>
             <img className={styles.blob2} src={blob2}/>
+            <img className={styles.dashes} src={dashes}/>
 
         </div>
     )

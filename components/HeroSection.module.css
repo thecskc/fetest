@@ -59,7 +59,13 @@
     text-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
 }
 
-@media only screen and (max-width: 768px) {
+.dashes{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 1024px) {
     /* For desktop: */
     .title{
         color:red;
@@ -71,7 +77,7 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     /* For tablets: */
 
     .title{
